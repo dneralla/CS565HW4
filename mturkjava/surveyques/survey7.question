@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Question>
+    <QuestionIdentifier>1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Which of these words are offensive ?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>6</MaxSelectionCount>
+        <StyleSuggestion>checkbox</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>modern puppets</SelectionIdentifier>
+            <Text>modern puppets</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>theatre</SelectionIdentifier>
+            <Text>theatre</Text>
+          </Selection>
+		  <Selection>
+            <SelectionIdentifier>artistic</SelectionIdentifier>
+            <Text>artistic</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>moody</SelectionIdentifier>
+            <Text>moody</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>funny faces</SelectionIdentifier>
+            <Text>funny faces</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>none of these</SelectionIdentifier>
+            <Text>none of these</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>
